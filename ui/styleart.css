@@ -1,0 +1,63 @@
+body
+{
+    background-image: url("https://www.silex.me/assets/imac.png");
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.container2
+{
+    background-color: aliceblue;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    margin: 100%;
+    margin-top: -55px;
+    margin-left: -7px;
+    opacity: 0.50;
+    position: fixed;
+}
+ul
+{
+    list-style-type: none;
+    color: black;
+}
+.Nav
+{
+    margin-top: -40px;
+    margin-left: 25px;
+    font-size: large;
+    text-align: left;
+    font-family: fantasy;
+}
+#head
+{
+    text-decoration: aliceblue;
+    text-decoration: underline;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 55px;
+}
+.anchor
+{
+    color: black;
+}
+.anchor::hover
+{
+    color: black;
+    text-decoration: overline;
+}
+#list
+{
+    height: 95%;
+    width: 25%;
+    position: fixed;
+    background-color: dimgray;
+    margin-top: 45px;
+    margin-left: 42px;
+    opacity: .30;
+    text-align: center;
+}
