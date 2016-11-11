@@ -7,8 +7,8 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 
 var config = {
-    user: 'b215053',
-    database: 'b215053',
+    user: 'bitaan',
+    database: 'bitaan',
     host: 'db.imad.hasura-app.io',
     port: '5432',
     password: process.env.DB_PASSWORD
@@ -32,15 +32,17 @@ function createTemplate (data) {
    <!doctype html>
 <head>
     <title>${title}</title>
-    <link rel="stylesheet" type="text/css" href="/ui/all.css">
-<link href="https://fonts.googleapis.com/css?family=Lobster|Six+Caps" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/ui/styleart.css">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico|Ravi+Prakash" rel="stylesheet">
 </head>
 <body>
-<div id="header">
-<h3 id="head">
-    
-    Explore Your Interests</h3>
-<ul><li class="nav"><a class="anchor" href="/">HOME</a></li></ul>
+<div id="container2">
+<div id="Navbar">   
+                <h2 id="head"><strong>As i see it</strong></h2>
+                <ul>
+                <li class="Nav"><a class="anchor" href="/">Home</a></li>
+                </ul>
+            </div>
 <div id="userinfo">
 </div>
 </div>
