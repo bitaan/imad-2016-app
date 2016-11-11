@@ -51,13 +51,24 @@ body
 {
     color:lightcyan;
 }
-#button
+#loginbutton
 {
   background-color: darkred; 
   font-size: large;
   text-decoration: overline;
 }
-#button:hover
+#loginbutton:hover
+{
+    text-decoration: underline;
+    font-size: x-large;
+}
+#registerbutton
+{
+  background-color: darkred; 
+  font-size: large;
+  text-decoration: overline;
+}
+#registerbutton:hover
 {
     text-decoration: underline;
     font-size: x-large;
