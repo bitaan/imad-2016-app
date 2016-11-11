@@ -2,7 +2,7 @@ console.log('Loaded!');
 function changediv(user_name)
 {
     var changedivtemp=`<h1> Hi `+user_name+` </h1><br><h1><a href="/logout"> Logout</a></h1>`;
-    document.getElementById('loginwindow').innerHTML=changedivtemp;
+    document.getElementById('Login').innerHTML=changedivtemp;
     
 }
 function loadLogin () {
