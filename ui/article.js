@@ -10,7 +10,7 @@ function loadArticles () {
                 for (var i=0; i< articleData.length; i++) {
                     content += `<li>
                     <a href="/articles/${articleData[i].title}">${articleData[i].heading}</a>
-                    (${articleData[i].date.split('T')[0]})</li><br>`;
+                    (${articleData[i].date.split('T')[0]})</li><br><br>`;
                 }
                 content += "</ul>";
                 articles.innerHTML = content;
