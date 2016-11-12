@@ -57,6 +57,7 @@ ul
     position: fixed;
     background-color: dimgray;
     margin-top: 45px;
+    margin-left: -3px;
     opacity: .70;
     text-align: center;
 }
