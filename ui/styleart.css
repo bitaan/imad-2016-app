@@ -82,13 +82,13 @@ ul
  padding-right:50px;
 }
 #one{
-    width:800px;
+    width:600px;
     height:180px;
     margin-top:20px;
     margin-left:200px;
-    opacity: .90;
+    opacity: .80;
 }
 #cover{
     height:180px;
-    width:800px;
+    width:600px;
 }
