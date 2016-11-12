@@ -72,4 +72,7 @@ ul
  position: absolute;
  text-align: center;
 }
-
+#one{
+    width:200%;
+    height:350px;
+}
