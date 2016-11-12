@@ -81,14 +81,16 @@ ul
  text-align: center;
  padding-right:50px;
 }
-#one{
+#one
+{
     width:200px;
     height:180px;
     margin-top:20px;
     margin-left:500px;
     opacity: .75;
 }
-#cover{
+#cover
+{
     height:180px;
     width:600px;
 }
