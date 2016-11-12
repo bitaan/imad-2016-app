@@ -78,7 +78,8 @@ ul
     width:800px;
     height:180px;
     margin-top:20px;
-    margin-left:50px;
+    margin-left:100px;
+    opacity: .50;
 }
 #cover{
     height:180px;
