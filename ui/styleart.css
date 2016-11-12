@@ -20,6 +20,10 @@ body
     opacity: 0.50;
     position: fixed;
 }
+#head
+{
+    font-family: 'Shrikhand', cursive;
+}
 ul
 {
     list-style-type: none;
