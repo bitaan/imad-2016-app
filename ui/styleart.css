@@ -61,15 +61,12 @@ ul
     opacity: .30;
     text-align: center;
 }
-/*#content
+#content
 {
  height:90%;
  width:83%;
- opacity: 0.25;
  margin-top: 65px;
  margin-left: 225px;
- background-color: darkgray; 
  position: fixed;
- 
 }
 
