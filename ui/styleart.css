@@ -82,12 +82,11 @@ ul
  padding-right:50px;
 }
 #one{
-    width:600px;
+    width:200px;
     height:180px;
     margin-top:20px;
-    margin-left:200px;
-    opacity: .80;
-    z-index: -1;
+    margin-left:500px;
+    opacity: .70;
 }
 #cover{
     height:180px;
