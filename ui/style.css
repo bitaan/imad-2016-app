@@ -87,4 +87,28 @@ body
     background-size: cover;
     font-size: larger;
 }
-#
+#me
+{
+    margin-left:    800px;
+    margin-top:     300px;
+    border:         solid , thick;
+    border-radius:  20px;
+    height:         300px;
+    widrh:          300px;
+    color:          aliceblue;
+}
+#insp
+{
+    font-family:    'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-sizeL:     x-large;
+    color:          aliceblue;
+}
+#photo
+{
+    height:         200px;
+    width:          200px;
+    margin-left:    50px;
+    margin-top:     400px;
+    border:         solid, thick;
+    border-radius:  20px;
+}
