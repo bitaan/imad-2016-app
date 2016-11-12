@@ -4,7 +4,7 @@ body
     position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80%;
+    
     width: 100%;
     padding-bottom: 50px;
 }
@@ -66,18 +66,18 @@ ul
 #content
 {
  height:90%;
- width: 200%;
+ width: 75%;
  margin-top: 65px;
  margin-left: 200px;
  position: absolute;
  text-align: center;
 }
 #one{
-    width:200%;
+    width:75%;
     height:350px;
     margin-top:20px;
 }
 #cover{
     height:350px;
-    width:200px;
+    width:75%;
 }
