@@ -7,11 +7,11 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 
 var config = {
-    user: 'bitaan',
-    database: 'bitaan',
-    host: 'db.imad.hasura-app.io',
+    user: 'postgres',
+    database: 'postgres',
+    host: 'localhost',
     port: '5432',
-    password: process.env.DB_PASSWORD
+    password: 'bitaan18'
 };
 
 var app = express();
@@ -38,7 +38,7 @@ function createTemplate (data) {
 <body>
 <div id="container2">
 <div id="Navbar">   
-                <h2 id="head"><strong>As i see it</strong></h2>
+                <h2 id="head"><strong>${heading}</strong></h2>
                 <ul>
                 <li class="Nav"><a class="anchor" href="/">Home</a></li>
                 </ul>
